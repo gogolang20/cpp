@@ -16,7 +16,8 @@ gdb 调试器 debug
 
 ### 2
 数据类型
-char bool void int float double auto
+char bool int float double void auto
+
 cast类型转换
 static_cast
 dynamic_cast
@@ -119,8 +120,11 @@ template
 
 ### 21
 预处理
-ifndef
-#pargma once
+#ifndef XXX
+#define XXX
+#endif
+
+#pragma once
 
 ### 22
 多线程 并发

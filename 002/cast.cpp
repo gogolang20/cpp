@@ -4,17 +4,19 @@ using namespace std;
 
 int main()
 {
-  double num = 3.14;
+  // static_cast
+  double b = 3.14f;
+  cout << b << endl;
 
-  int a = static_cast<int>(num);
+  int i = static_cast<int>(b);
+  cout << i << endl;
+
 
   // dynamic_cast
 
   // const_cast
 
   // reinterpret_cast
-
-  cout << a << endl;
 
   return 0;
 }

@@ -198,7 +198,6 @@ node *deleteNode(node *root, int element) {
         root->left = deleteNode(root->left, element);
     } else if (element > root->data) {
         root->right = deleteNode(root->right, element);
-
     } else {
         // Node to be deleted is leaf node or have only one Child
         if (!root->right || !root->left) {
