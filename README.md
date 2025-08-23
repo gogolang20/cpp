@@ -11,8 +11,9 @@ hello world
 注释
 作用域 {}
 外部参数 
-编译 运行
-gdb 调试器 debug
+预处理 编译 汇编 链接
+运行 & gdb debug
+cpp文件合法后缀名
 
 ### 2
 数据类型
@@ -106,7 +107,8 @@ try catch throw
 内存申请
 new delete
 new[] delete[]
-内存泄露检测
+内存泄露检测 valgrind
+性能分析 优化
 
 ### 18
 命名空间 namespace
