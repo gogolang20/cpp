@@ -30,6 +30,9 @@ git clone https://github.com/TheAlgorithms/C-Plus-Plus.git
 滑动窗口
 - 值重复问题
 
+稀疏表 st table
+- 倍增
+
 并查集
 - 数组实现 和 HashMap实现
 
